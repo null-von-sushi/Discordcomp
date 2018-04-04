@@ -4,7 +4,7 @@ Dummy program that makes discord show wine games as the current running applicat
 ## How to use
 1) Either copy `LoL-dummy` or create your own by compiling dummy.c if you don't trust me 🙂 (that would be `gcc -o LoL-dummy dummy.c`). I use LoL-dummy because I want that to be the process name for it (since I personally used it for League of Legends).
 2) Copy and edit `start.sh` and `start-discord.sh` to suit your needs. `start.sh` basically just runs your wine application normally. `start-discord.sh` is the new file that will run the dummy program and `start.sh` when you play, and quit the dummy program once you finish playing. I tried to add comments to it to explain everything.
-3) run start-discord.sh, edit the name of the game in Discord itself and enjoy.
+3) run `start-discord.sh`, edit the name of the game in Discord itself and enjoy.
 
 You probably need to adjust a few things, but it should be easy enough to figure out what you need to do.
 
