@@ -7,10 +7,10 @@ This was made to launch empty dummy programs that do absolutely nothing, for the
 
 ## How to use 
 1) `git clone https://github.com/Null-Senpai/Discord-for-Linux-Wine-helper`
-1a) You trust me: delete dummy.c if you want, it's not needed.
-1b) You don't trust me: check the script and the C source code for anythig 🐟-y, delete the `dummy` binary and then compile the dummy file from scratch (that would be `gcc -o dummy dummy.c`).
-2) Edit the processes.txt to match the names of the .exe files of your games. Each process should look have the full name, with proper capitalization, seperated by new lines. 
-3) Run discordcomp.sh
+2) You trust me: delete dummy.c if you want, it's not needed.   
+2) You don't trust me: check the script and the C source code for anythig 🐟-y, delete the `dummy` binary and then compile the dummy file from scratch (that would be `gcc -o dummy dummy.c`).
+3) Edit the processes.txt to match the names of the .exe files of your games. Each process should look have the full name, with proper capitalization, seperated by new lines. 
+4) Run discordcomp.sh
 
 You do not need to launch it with every game or something. It is essentially intended as background service. 
 
