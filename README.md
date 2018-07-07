@@ -12,7 +12,7 @@ This was made to launch empty dummy programs that do absolutely nothing, for the
 
 **Step 2b** You don't trust me: check the script and the C source code for anythig 🐟-y, delete the `dummy` binary and then compile the dummy file from scratch (that would be `gcc -o dummy dummy.c`).  
 
-**Step 3** Edit the processes.txt to match the names of the process of your games. For windows games running using wine this would be `game.exe`, not `wineserver` or `wine`. Each process should look have the name, with proper capitalization, seperated by new lines. **Note: Due to the weird ass way pgrep behaves, you should only write the first 15 characters. E.g. `LeagueClient.exe` becomes `LeagueClient.ex` and `pokemmo-launcher` becomes `pokemmo-launche`! **
+**Step 3** Edit the processes.txt to match the names of the process of your games. For windows games running using wine this would be `game.exe`, not `wineserver` or `wine`. Each process should look have the name, with proper capitalization, seperated by new lines. **Note: Due to the weird ass way pgrep behaves, you should only write the first 15 characters. E.g. `LeagueClient.exe` becomes `LeagueClient.ex` and `pokemmo-launcher` becomes `pokemmo-launche`!**
 
 **Step 4** Run discordcomp.sh
 
