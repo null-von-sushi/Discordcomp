@@ -23,6 +23,9 @@ You do not need to launch it with every game or something. It is essentially int
  - If you wanna stop the script, make sure any wine programs are closed before. Or just manually kill all the `name-of-exefile.exe.dummy` programs later. Not really a big deal, but I thought I'd mention it.
  - This thing technically does a lot of polling, so theoretically there is an impact on battery life on laptops. Really, I cannot imagine it taking more battery power then having Task Manager on Windows open in the background would. Essentially it asks the OS "is `game.exe` running?" every 10 seconds...
 
+## To-do / Wishlist
+ - Would be nice if we could not poll, but instead somehow only run when `wineserver` is started or something?
+ - Would be nice if we could add extended discord info (Discord's "Rich Presence") to the dummy files. It would not be game-specific, at least not without also keeping a database of 'special' games, but it might say things like "In game: League of Legends. Currently running using WINE on Linux" or something. I am not sure if this would work however, since you have to manually set the game name anyways (the executables are just called `exe-name.exe.dummy` after all)...
 
 ## Put together from info found here:
 
