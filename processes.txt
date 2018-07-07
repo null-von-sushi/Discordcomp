@@ -1,2 +1,2 @@
-NonExistantTest
-explorer.exe
+vampire.exe
+LeagueClient.ex
