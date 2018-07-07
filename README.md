@@ -26,7 +26,8 @@ You do not need to launch it with every game or something. It is essentially int
 ## To-do / Wishlist
  - Would be nice if we could not poll, but instead somehow only run when `wineserver` is started or something?
  - Would be nice if we could add extended discord info (Discord's "Rich Presence") to the dummy files. It would not be game-specific, at least not without also keeping a database of 'special' games, but it might say things like "In game: League of Legends. Currently running using WINE on Linux" or something. I am not sure if this would work however, since you have to manually set the game name anyways (the executables are just called `exe-name.exe.dummy` after all)...
-
+ - Maybe I should look into how to write PKGBUILD files? That way I could write an AUR package. Technically I think something could be done with RPM too (maybe?), but that just looks confusing af, and I do not use it. As for .deb packages, I do not think that they can be used to install random files from github. AFAIK they always have to be buit in advance to contain a certain version of a file. Technically flatpak might also be an option. Maybe I'll look into packaging once I have implemented exe-names with spaces and can have ~5-7 games run reliably without having to edit the script. 
+ 
 ## Put together from info found here:
 
 * https://askubuntu.com/questions/157779/how-to-determine-whether-a-process-is-running-or-not-and-make-use-it-to-make-a-c#157787
