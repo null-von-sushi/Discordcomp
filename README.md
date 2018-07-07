@@ -18,9 +18,10 @@ This was made to launch empty dummy programs that do absolutely nothing, for the
 
 You do not need to launch it with every game or something. It is essentially intended as background service. 
 
-## Possible Bugs
+## Possible Bugs / Known issues
  - I have only tested .exe names which contain no spaces. I guess if you are adding .exe names with spaces, you might want to escape them? (e.g. `Name\ of\ executable\ with\ spaces.exe`). I am not sure yet, I will adress this once I notice it misbehave 😀
  - If you wanna stop the script, make sure any wine programs are closed before. Or just manually kill all the `name-of-exefile.exe.dummy` programs later. Not really a big deal, but I thought I'd mention it.
+ - This thing technically does a lot of polling, so theoretically there is an impact on battery life on laptops. Really, I cannot imagine it taking more battery power then having Task Manager on Windows open in the background would. Essentially it asks the OS "is `game.exe` running?" every 10 seconds...
 
 
 ## Put together from info found here:
