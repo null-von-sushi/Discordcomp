@@ -42,12 +42,12 @@ function thread {
     GETCURRENTPID=$(pgrep -x "$CURRENT") 
     while [ true ]
     do 
-        if [[ "$GETCURRENTPID" == "$PID" ]]
+        if [[ "$(echo "$GETCURRENTPID" | grep "$PID")" == "$PID" ]]
         then
             sleep 5
             GETCURRENTPID=$(pgrep -x "$CURRENT") 
         else
-            kill -9 $DUMMYPID > /dev/null
+            kill -9 $DUMMYPID 
             sleep 1
             rm -f $TMP/$CURRENT.dummy
             exit
@@ -79,6 +79,7 @@ do
             COUNT=1
         fi
         PID=0
+        sleep 10
     done
 done
 
