@@ -1,6 +1,6 @@
 
 # NOTE:
-### I have literally just pushed this, I have not even tested it myself. Obviously I take no responsibility, but at this point I cannot even informally recommend it. Come back in a few days. I am running this myself, and if I notice any bugs I will try to update it.
+### I take no responsibility, but it _shouldn't_ set your computer on fire.
 
 ## A Companion to launch native dummy programs 
 This was made to launch empty dummy programs that do absolutely nothing, for the sole purpose of having them be selectable when playing windows games using wine in discord. For example, if you play Vampire the Masquerade: Bloodlines using wine, the .exe file is called `Vampire.exe`. Discord on Linux will not show that as a game. What this does is copy a dummy program written in C, renames it Vampire.exe.dummy and launches it while you play. After you are done playing it should automatically kill the dummy program and remove it from the temporary folder. This allows you to add a custom game called "Vampire.exe.dummy" to discord, and then rename it to "Vampire the Masquerade: Bloodlines", allowing you to show everyone that you have great taste in games.
