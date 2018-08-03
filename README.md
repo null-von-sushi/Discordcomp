@@ -1,3 +1,4 @@
+# <img src="https://user-images.githubusercontent.com/13616397/43618626-6032e5e0-96c1-11e8-9b12-24df6dd172a2.png" width="64"> Discordcomp
 
 # NOTE:
 ### I take no responsibility, but it _shouldn't_ set your computer on fire.
@@ -32,6 +33,7 @@ You do not need to launch it with every game or something. It is essentially int
  - Maybe I should look into how to write PKGBUILD files? That way I could write an AUR package. Technically I think something could be done with RPM too (maybe?), but that just looks confusing af, and I do not use it. As for .deb packages, I do not think that they can be used to install random files from github. AFAIK they always have to be buit in advance to contain a certain version of a file. Technically flatpak might also be an option. Maybe I'll look into packaging once I have implemented exe-names with spaces and can have ~5-7 games run reliably without having to edit the script. 
  
 ## Put together from info found here:
+
 
 * https://askubuntu.com/questions/157779/how-to-determine-whether-a-process-is-running-or-not-and-make-use-it-to-make-a-c#157787
 * https://feedback.discordapp.com/forums/326712-discord-dream-land/suggestions/16143823-a-wine-companion-app-for-gnu-linux-client-users
