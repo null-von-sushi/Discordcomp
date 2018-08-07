@@ -1,3 +1,4 @@
 vampire.exe
 LeagueClient.ex
 pokemmo-launche
+Vainglory.exe
