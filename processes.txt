@@ -2,3 +2,7 @@ vampire.exe
 LeagueClient.ex
 pokemmo-launche
 Vainglory.exe
+evelauncher.exe
+FarmingSimulato
+Fallout3.exe
+Bishoujo Mangek
