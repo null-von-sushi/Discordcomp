@@ -14,9 +14,11 @@ DB=processes.txt
 ###########################
 # Touch at your own peril #
 ###########################
+SELFDIR=$(dirname "$(readlink -f "$0")")
 TMP=/tmp/discordhelper
 mkdir -p /tmp/discordhelper
 rm -rf /tmp/discordhelper/*
+cd $SELFDIR
 PID=0
 COUNT=1
 
@@ -35,9 +37,9 @@ function thread {
         echo "vars not set, exiting"
         exit
     fi
-    cp dummy $TMP/$CURRENT.dummy
-    chmod +x $TMP/$CURRENT.dummy
-    $TMP/$CURRENT.dummy > /dev/null &
+    cp dummy "$TMP/$CURRENT.dummy"
+    chmod +x "$TMP/$CURRENT.dummy"
+    "$TMP/$CURRENT.dummy" > /dev/null &
     DUMMYPID=$!
     GETCURRENTPID=$(pgrep -x "$CURRENT") 
     while [ true ]
@@ -77,9 +79,10 @@ do
         if (( $COUNT > $(cat $DB | wc -l) ))
         then
             COUNT=1
+            sleep 10
         fi
         PID=0
-        sleep 10
+        sleep 1
     done
 done
 
