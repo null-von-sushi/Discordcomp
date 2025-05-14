@@ -1,3 +1,7 @@
+Archived. I haven't updated it since it 'just worked' back then, and nowadays I don't feel the need to let everyone see my running applications anymore.
+
+----
+
 # <img src="https://user-images.githubusercontent.com/13616397/43618626-6032e5e0-96c1-11e8-9b12-24df6dd172a2.png" width="64"> Discordcomp
 
 # NOTE:
